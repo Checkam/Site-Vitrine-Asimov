@@ -1,0 +1,148 @@
+@media screen and (max-width: 800px){
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #384259;
+	height: 10%;
+	width: 100%;
+	z-index: 5;
+
+}
+.menuPC{
+	display: none;
+
+}
+.text_menu{
+	display: none;
+}
+.text_menuPort{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 50%;
+	height: 40px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #384259;
+	transition: background-color 0.5s;
+}
+.text_menuPort:hover{
+	background-color: #93061e;
+
+}
+.button{
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+.menuPort{
+	width: 100%;
+}
+.sous_menu{
+	display: none;
+	border: 2px solid white;
+	width: 100%;
+}
+.menuPort:hover div.sous_menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	
+	justify-content: center;
+}
+.paragraphe{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500;
+}
+.input{
+	width: 90%;
+	border: 1px solid grey;
+	margin-top: 10px;
+	border-radius: 10px;
+
+}
+.text_contact{
+	width: 90%;
+	height: 10%;
+	max-width: 900px;
+	max-height: 400px;
+	border: 1px solid grey;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.section_parametre1{
+	
+	height: 150px;
+	width: 90%;
+	box-shadow: 2px 5px 15px 1px rgba(0, 0, 0, 0.5);
+	transition: background-color 0.3s, color 0.5s;
+	align-items: center;
+	justify-content: center;
+}
+
+.section_news{
+	width: 90%;
+	height: 150px;
+	box-shadow: 2px 5px 15px 1px rgba(0, 0, 0, 0.5);
+	transition: background-color 0.3s, color 0.5s;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+}
+.section_news_image{
+	display: none;
+
+}
+.info_news{
+	display: none;
+}
+.section_parametre2{
+	
+	align-items: center;
+	height: 100px;
+	width: 100%;
+}
+.section_parametre3{
+	flex-direction: column;
+	justify-content: center;
+
+}
+.section_column{
+	flex-direction: column;
+}
+.container_diapo{
+	background-color: grey;
+	height: 280px;
+	width: 81vw;
+
+}
+.diapo{
+	background: url("../image/small.png") no-repeat;
+	background-size: cover;
+	height:  280px;
+	width: 81vw;
+}
+.diapo2{
+	background: url("../image/Ekko.jpg") no-repeat;
+	background-size: cover;
+	height: 280px;
+	width: 81vw;
+}
+.info{
+	box-sizing: border-box;
+	padding: 10px;
+	width: 100%;
+	height: 120px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+}
